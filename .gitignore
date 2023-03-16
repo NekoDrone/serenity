@@ -1,1 +1,3 @@
-local.js
+local.ts
+node_modules/
+dist/
