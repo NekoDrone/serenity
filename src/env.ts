@@ -1,6 +1,6 @@
-//when setting up, rename this file to 'local.js', and insert your keys accordingly. KEEP 'local.js' A SECRET
+//when setting up, rename this file to 'creds.js', and insert your keys accordingly. KEEP 'creds.js' A SECRET
 
-/*your gcal_id is the ID of the calendar you would like this bot to manage.
+/*your gcal_id is the ID of the calendar you would like this bot to access.
 If you are targeting your primary calendar, this would be your gmail address.*/
 
 export const bot_id = "insert bot id here";
