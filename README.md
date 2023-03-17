@@ -8,6 +8,8 @@ Before contributing to this repo, ensure that you have the following setup.
  npm install --save-dev typescript
  npm install @google-cloud/firestore
  ```
+ OR run ```npm install``` once in the root of the project folder.
+ 
  2. Clone this repo
  ```sh
  git clone https://github.com/NekoDrone/serenity.git
