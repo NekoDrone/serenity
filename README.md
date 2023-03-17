@@ -11,4 +11,5 @@ Before contributing to this repo, ensure that you have the following setup.
  ``git clone https://github.com/NekoDrone/serenity.git``
  
  3.  Create 'creds.ts' and insert your credentials.
-You MUST have a valid Telegram Bot Token, and a valid Google API Ke
+
+You MUST have a valid Telegram Bot Token, and a valid Google API Key.
