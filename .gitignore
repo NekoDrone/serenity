@@ -1,4 +1,7 @@
 creds.ts
 node_modules/
+examples/
 dist/
 .env
+.DS_Store
+.

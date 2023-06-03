@@ -2,12 +2,13 @@
   "dependencies": {
     "@google-cloud/firestore": "^6.5.0",
     "@google-cloud/functions-framework": "^3.1.3",
+    "axios": "^1.4.0",
     "dotenv": "^16.1.0"
   },
-  "main": "dist/index.js",
+  "main": "dist/inputHandler.js",
   "scripts": {
     "build": "tsc",
-    "start": "functions-framework --target=TypescriptFunction",
+    "start": "functions-framework --target=helloHttp",
     "prestart": "npm run build",
     "gcp-build": "npm run build"
   },

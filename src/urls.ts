@@ -7,8 +7,9 @@ if(keys.error){
 console.log("Successfully parsed the following keys:")
 console.log(keys.parsed);
 
-const baseTeleBotURL = "https://api.telegram.org/bot" + process.env.BOT_ID;
-const baseCalURL = "https://www.googleapis.com/calendar/v3/calendars/" + process.env.GCAL_ID;
+export const baseTeleBotURL = "https://api.telegram.org/bot" + process.env.BOT_ID;
+export const baseCalURL = "https://www.googleapis.com/calendar/v3/calendars/" + process.env.GCAL_ID;
+//export const calEventsURL = baseCalURL + "/events" + "?key=" + process.env.GAPI_KEY;
 
 if(baseTeleBotURL == "https://api.telegram.org/botinsert bot id here"){
     console.warn("Telegram Bot ID not set. Please set it in '.env'.");

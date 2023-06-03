@@ -1,1 +1,1 @@
-function timeNow()
+//TODO: function timeNow()
