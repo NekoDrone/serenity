@@ -8,7 +8,7 @@
   "main": "dist/inputHandler.js",
   "scripts": {
     "build": "tsc",
-    "start": "functions-framework --target=helloHttp",
+    "start": "functions-framework --target=testFunction",
     "prestart": "npm run build",
     "gcp-build": "npm run build"
   },
