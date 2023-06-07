@@ -2,6 +2,7 @@ import * as functions from '@google-cloud/functions-framework';
 import axios from 'axios';
 import { baseTeleBotURL as teleURL } from './urls';
 import { teleResponse } from './types';
+import { commandsList } from './commands';
 
 functions.http('testFunction', (req: functions.Request, res: functions.Response) => {
   const updateMessage = req.body.message;
@@ -27,7 +28,7 @@ functions.http('testFunction', (req: functions.Request, res: functions.Response)
   
   var responseMessage = "";
 
-  if(requestMessage.startsWith('/')){ //TODO: Change this to an array access of possible commands, then filter it based on that. Should be faster.
+  if(commandsList.includes(requestMessage)){ //TODO: Change this to an array access of possible commands, then filter it based on that. Should be faster.
 
     if(requestMessage.endsWith('start')){
       if(username == "SylfrTan"){
