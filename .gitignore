@@ -3,3 +3,4 @@ examples/
 dist/
 .env
 .DS_Store
+src/commands.ts
